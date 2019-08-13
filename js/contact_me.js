@@ -26,9 +26,12 @@ $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
 
 
        
-        // https://script.google.com/macros/s/AKfycbwhAxLpeYfkrJlScRB949lKFu7LVKNYCq6Z0gpHWKAUOI0xO1Y/exec
+        
 
-        //?name=baljeet kasli&email=baljeetkalsi@gmail.com&phone=2267005044&message=hello how are you ?
+        // url: "https://script.google.com/macros/s/AKfycbwhAxLpeYfkrJlScRB949lKFu7LVKNYCq6Z0gpHWKAUOI0xO1Y/exec"
+
+
+     
 
         var Paramenter = "?name=" + encodeURIComponent(name) + "&email=" + encodeURIComponent(email) + "&phone=" + encodeURIComponent(phone) + "&message=" + encodeURIComponent(message);
 
