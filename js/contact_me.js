@@ -23,14 +23,7 @@ $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
         if (firstName.indexOf(' ') >= 0) {
             firstName = name.split(' ').slice(0, -1).join(' ');
         }
-
-
-       
-        
-
-        // url: "https://script.google.com/macros/s/AKfycbwhAxLpeYfkrJlScRB949lKFu7LVKNYCq6Z0gpHWKAUOI0xO1Y/exec"
-
-
+ 
      
 
         var Paramenter = "?name=" + encodeURIComponent(name) + "&email=" + encodeURIComponent(email) + "&phone=" + encodeURIComponent(phone) + "&message=" + encodeURIComponent(message);
@@ -88,7 +81,6 @@ $("a[data-toggle=\"tab\"]").click(function(e) {
 });
 
 
-/*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
     $('#success').html('');
 });
